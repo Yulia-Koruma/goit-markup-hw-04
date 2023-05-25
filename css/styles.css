@@ -235,6 +235,10 @@ margin: 0 auto;
     margin-bottom: 16px;
 }
 
+.footer-svg{
+    fill: var(--background-btn-second);
+}
+
 .social-card-item .footer-svg-link:hover,
 .social-card-item .footer-svg-link:focus{
  background-color: var(--focus-hover-footer);
@@ -448,13 +452,14 @@ background-color: var(--background-btn-first)
 }
 
 .customers-link{
- width: 100%;
- height: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
- border: 1px solid #8E8F99;
- color: #8E8F99;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    color: #8E8F99;
+    border-radius: 4px;
 }
 
 .customers-svg{
